@@ -1,0 +1,13 @@
+[package]
+name = "isaac_console"
+version = "0.1.0"
+edition = "2021"
+build = "src/build.rs"
+
+[dependencies]
+rust-ini = "0.19"
+colored = "2"
+sysinfo = "0.29.6"
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1.12"

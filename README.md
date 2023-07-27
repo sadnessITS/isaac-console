@@ -15,6 +15,11 @@ Just run the program and it will automatically switch the console to a different
 ```
 .\isaac_console.exe C:\option.ini
 ```
+You will then see a message that the Debug Console mode has been successfully changed. Or an **ERROR** if the game is running or the settings file is not found... Example:
+```
+ENABLED now! Press Enter to close the window...
+```
+
 ### Other OS
 You have to specify the path to the `option.ini` file with the startup parameter anyway. It won't work without **it**.
 
